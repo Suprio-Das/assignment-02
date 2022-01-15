@@ -1,0 +1,234 @@
+/*--------------------------------
+            Google Fonts 
+----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+/*-----------------------------------
+            Common Styles
+-------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.divider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.primary-button{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.primary-button:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    transition: border 0.2s,background-color 0.2s, color 0.2s;
+}
+.primary-button:hover .fa-arrow-right{
+    transform: translateX(15px);
+    color: black;
+}
+/*--------------------------------
+        header section 
+----------------------------------*/
+.logo-title h2{
+    margin: 0 auto;
+    font-size: 30px;
+}
+.logo-title h2:hover{
+    text-decoration: underline;
+    transition: text-decoration 0.1s ease-in-out;
+}
+
+/*-------------------------------------
+                Top-Section 
+--------------------------------------*/
+header h2{
+    align-items: flex-start;
+    padding: 20px;
+}
+.logo-title{
+    display: flex;
+    justify-content: left;
+}
+.container{
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 850px;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+}
+#top-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #3A3A3A;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.top-quotes{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.top-img{
+    margin-left: 35px;
+}
+.top-img img{
+    width: 350px;
+}
+ /*------------------------------
+    Top Section Ended here 
+ --------------------------------*/
+ /*------------------------------
+    Products Section Starts here 
+ --------------------------------*/
+ .product-section{
+     margin-top: 50px;
+ }
+ .our-products{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-row-gap: 30px;
+     grid-column-gap: 30px;
+     justify-content: center;
+ }
+ .products img{
+     width: 329px;
+ }
+ .section-title{
+     text-align: center;
+     font-size: 28px;
+     color: #3A3A3A;
+     margin-bottom: 20px;
+ }
+.collections{
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.products img{
+    width: 300px;
+}
+
+.products-title{
+    font-size: 28px;
+}
+.products-price{
+    font-size: 24px;
+}
+.fa-star{
+    font-size: 11px;
+    color: #FB8200;
+}
+.fa-star-half-alt{
+    font-size: 11px;
+    color: #FB8200;
+}
+.ratings{
+    font-size: 14px;
+    font-weight: 700;
+}
+.product-shifting{
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+}
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    color: #E02C6DDE;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*------------------------------
+    Products Section ends here 
+--------------------------------*/
+/*------------------------------
+Our Service Section starts here 
+--------------------------------*/
+.our-services{
+    margin-bottom: 100px;
+}
+.influencer-service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+.service-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sub-title{
+    display: inline-block;
+    background-color: #E02C6DDE;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.main-title{
+    font-size: 60px;
+    margin-top: -20px;
+}
+.highlight-title{
+    color: #E02C6DDE;
+}
+.services{
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.influencer img{
+    width: 300px;
+}
+.influencer-details{
+    text-align: center;
+    margin-top: 15px;
+}
+.influencer-name{
+    font-size: 24px;
+    color: #E02C6DDE;
+}
+.hire-us{
+    text-align: center;
+    margin-top: 30px;
+}
+/*------------------------------
+    Footer Section starts here 
+--------------------------------*/
+footer{
+    padding: 40px;
+    background-color: #0A0826;
+    color: #ffffff;
+    text-align: center;
+}
+footer h2{
+    font-size: 24px;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.social-media .fab{
+    font-size: 25px;
+    margin: 20px 10px;
+}
+
+/*------------------------------
+    Footer Section ends here 
+--------------------------------*/

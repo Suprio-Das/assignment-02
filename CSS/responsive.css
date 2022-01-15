@@ -1,0 +1,85 @@
+/*--------------------------------
+Responsive Section Starts Here 
+---------------------------------*/
+/*-------------------------------
+        Mobile Devices 
+----------------------------------*/
+@media only screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    .top-section{
+        flex-direction: column;
+    }
+    .top-contents{
+        text-align: center;
+    }
+    .top-title{
+        font-size: 30px;
+    }
+    .top-img{
+        margin-top: 50px;
+        margin-bottom: -80px;
+    }
+    .our-products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-services{
+        width: 100%;
+    }
+    .main-title{
+        font-size: 30px;
+    }
+    .influencer img{
+        width: 100%;
+    }
+    .influencer-service{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        padding: 20px;
+    }
+    footer{
+
+    }
+}
+
+/* Tablets Devices */
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+    .container{
+        width: 100%;
+    }
+    .top-section{
+        flex-direction: column;
+    }
+    .top-contents{
+        text-align: center;
+    }
+    .top-img{
+        margin-top: 50px;
+    }
+    .product-section{
+        margin-top: -10px;
+    }
+    .our-products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .influencer img{
+        width: 100%;
+    }
+    .influencer-service{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        padding: 20px;
+    }
+}
+
+
+/*
+---------------------------------------------------------------------------------------------
+            Ended 
+----------------------------------
+----------------------------------
+-------------------------------------------------------------
+*/
